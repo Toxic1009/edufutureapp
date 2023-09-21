@@ -1,0 +1,131 @@
+body {
+  background-color: #582b6e;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+}
+.back-image {
+    background-image: url("../image/c.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 90vh;
+    border-radius: 0px;
+    /*margin-top: 55px;*/
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+.fa-1x {
+font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+cursor: pointer;
+}
+.dark-blue-text {
+color: #0A38F5;
+}
+.dark-pink-text {
+color: #AC003A;
+}
+.dark-amber-text {
+color: #ff6f00;
+}
+.dark-teal-text {
+color: #004d40;
+}
+
+@media only screen and (max-width:600px){
+.heading {
+    text-align: center;
+    color: white;
+        }
+.btnn {
+    margin-right: 50px ;
+    cursor: pointer;
+    }
+}
+
+.btnn {
+    margin:0px 20px;
+    cursor: pointer;
+}
+
+.clr:hover {
+opacity: 0.5;
+}
+
+@media only screen and (max-width:800px) {
+
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 2px;
+        padding: 10px 25px;
+        font-weight: bold;
+        font-size: 36px;
+        text-decoration: none;
+    }
+
+}
+@media only screen and (min-width:800px) {
+.closebtn {
+    display: none;
+}
+
+
+/*menu navigation */
+ @media only screen and (max-width:650px) {
+ 
+
+
+@media only screen and (min-width:570px) {
+#menubutton {
+  display: none;
+}
+#gob {
+    margin-top: 10px;
+}
+}
+#gob {
+    margin-top: 10px;
+}
+/*developer */
+.modalls {
+   margin-top: 100px;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: none;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: #f8f9fa;
+   width:55%; 
+   height:40%;
+   border: 1px solid black;
+}
+.modalls .carr {
+    display: flex;
+    margin: 1% auto 15% auto;
+}
+@media only screen and (max-width:850px) {
+    .modalls {
+      width: 90%;
+    }  
+}
+.closes {
+    font-size: 40px;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.closes:hover, .closes:focus {
+  color: red;
+  cursor: pointer;
+}
+.fll {
+    display: flex;
+}
+

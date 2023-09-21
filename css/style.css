@@ -1,0 +1,70 @@
+
+.head{
+	text-align: center;
+	color: black;
+	font-family: Impact, Gill Sans, sans-serif;
+	text-decoration: none;
+	padding:1px;
+	padding-bottom:15px;
+	line-height: 24px;
+	width: 100%;
+	color: white;
+	font-size: 30px;
+}
+.content{
+	/* position: relative; */
+	padding-top: 4%;
+	padding-bottom: 4%;
+	padding-left: 4%;
+	padding-right: 4%;
+	margin: 12% auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	max-width: 800px;
+	text-align: center;
+	color: white;
+	font-family: "Trebuchet MS",Helvetica, sans-serif;
+	text-decoration: none;
+	/* padding: 0px 35px 35px 35px; */
+	line-height: 24px;
+	width: 100%;
+	font-size: 15px;
+}
+footer {
+	position: fixed;
+	padding: 10px 0;
+	text-align: center;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: white;
+	width: 100%;
+}
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 5px;
+
+	}
+
+	.fa:hover {
+	opacity: 0.7;
+	}
+
+	.fa-facebook {
+	background: rgba(0, 0, 0,0.5);
+	color: white;
+	}
+
+	.fa-linkedin {
+	background: rgba(0, 0, 0,0.5);
+	color: white;
+	}
+	.fa-instagram {
+	background: rgba(0, 0, 0,0.5);
+	color: white;
+	}
+	.form textarea{
+		max-width: 600px;
+	}
